@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="book-order-service" />
+        <module name="book-registry-service" />
+        <module name="book-registry-service (1)" />
+        <module name="book-service" />
+        <module name="book-service (1)" />
+        <module name="netflix-eureka-naming-server" />
+        <module name="netflix-zuul-api-gateway-server" />
+        <module name="spring-cloud-config-server" />
+        <module name="user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="auth-server" target="1.8" />
+      <module name="auth-service" target="1.8" />
+      <module name="book-order-service" target="1.8" />
+      <module name="book-registry-service" target="1.8" />
+      <module name="book-registry-service (1)" target="1.8" />
+      <module name="book-service" target="1.8" />
+      <module name="book-service (1)" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="netflix-eureka-naming-server" target="1.8" />
+      <module name="netflix-zuul-api-gateway-server" target="1.8" />
+      <module name="resource-server" target="1.8" />
+      <module name="spring-cloud-config-server" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
