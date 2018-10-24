@@ -18,7 +18,7 @@ export class AuthenticationService {
                   let decodedJwtJsonData = window.atob(jwtData);
                   let decodedJwtData = JSON.parse(decodedJwtJsonData);
                     // store user details and jwt token in local storage to keep user logged in between page refreshes
-                    localStorage.setItem('currentUserToken', token);
+                    localStorage.setItem('currentUserToken', token)
                     localStorage.setItem('authorities', decodedJwtData.authorities);
                 }
                 return user;
