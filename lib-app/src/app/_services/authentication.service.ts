@@ -12,17 +12,15 @@ export class AuthenticationService {
         return this.http.post<any>(`${environment.apiUrl}/auth`, { username: username, password: password },  { observe: 'response' })
             .pipe(map(user => {
               const token = user.headers.get("Authorization").replace("Bearer ", "");
-              console.log(token);
-              let jwtData = token.split('.')[1];
-              let decodedJwtJsonData = window.atob(jwtData);
-              let decodedJwtData = JSON.parse(decodedJwtJsonData);
-              console.log(decodedJwtData);
                 // login successful if there's a jwt token in the response
                 if (token) {
+                  let jwtData = token.split('.')[1];
+                  let decodedJwtJsonData = window.atob(jwtData);
+                  let decodedJwtData = JSON.parse(decodedJwtJsonData);
                     // store user details and jwt token in local storage to keep user logged in between page refreshes
                     localStorage.setItem('currentUserToken', token);
+                    localStorage.setItem('authorities', decodedJwtData.authorities);
                 }
-
                 return user;
             }));
     }
