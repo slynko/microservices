@@ -52,6 +52,8 @@ export class LoginComponent implements OnInit {
                     console.log(localStorage.getItem("authorities"));
                     if(localStorage.getItem("authorities") == 'ROLE_ADMIN') {
                         this.router.navigate(["/home-admin"]);
+                    } else if(localStorage.getItem("authorities") == 'ROLE_READER') {
+                      this.router.navigate(["/home-reader"]);
                     } else {
                         this.router.navigate(["/"]);
                     }

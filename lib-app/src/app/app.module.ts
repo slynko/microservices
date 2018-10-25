@@ -19,6 +19,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {DemoMaterialModule} from "../material-module";
 import {MatNativeDateModule} from "@angular/material";
 import {HomeAdminComponent} from "./home-admin";
+import {HomeReaderComponent} from "./home-reader";
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import {HomeAdminComponent} from "./home-admin";
     AlertComponent,
     LoginComponent,
     RegisterComponent,
-      HomeAdminComponent
+      HomeAdminComponent,
+    HomeReaderComponent
   ],
   providers: [
     AuthGuard,

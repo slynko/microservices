@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496ba777-6463-4dcd-bcf7-b3ef1344e96a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/_guards/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/_guards/auth.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/_helpers/jwt.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/_helpers/jwt.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib-app/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/app.routing.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/home/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-admin/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib-app/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/book-service/target/" />
@@ -52,39 +45,40 @@
     <session id="-1455544767">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="264" />
-          <entry key="html" value="256" />
+          <entry key="css" value="267" />
+          <entry key="html" value="262" />
           <entry key="java" value="752" />
           <entry key="json" value="9" />
           <entry key="md" value="6" />
           <entry key="properties" value="36" />
           <entry key="sql" value="23" />
-          <entry key="ts" value="516" />
+          <entry key="ts" value="558" />
           <entry key="xml" value="60" />
           <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="264" />
-          <entry key="HTML" value="256" />
+          <entry key="CSS" value="267" />
+          <entry key="HTML" value="262" />
           <entry key="JAVA" value="752" />
           <entry key="JSON" value="9" />
           <entry key="Markdown" value="6" />
           <entry key="Properties" value="36" />
           <entry key="SQL" value="23" />
-          <entry key="TypeScript" value="516" />
+          <entry key="TypeScript" value="558" />
           <entry key="XML" value="60" />
           <entry key="YAML" value="13" />
         </counts>
@@ -97,14 +91,14 @@
           <entry key="css" value="8" />
           <entry key="gradle" value="1" />
           <entry key="gradlew" value="1" />
-          <entry key="html" value="17" />
-          <entry key="java" value="108" />
+          <entry key="html" value="19" />
+          <entry key="java" value="110" />
           <entry key="js" value="1" />
           <entry key="json" value="11" />
           <entry key="md" value="2" />
           <entry key="properties" value="13" />
-          <entry key="sql" value="2" />
-          <entry key="ts" value="50" />
+          <entry key="sql" value="3" />
+          <entry key="ts" value="55" />
           <entry key="xml" value="10" />
           <entry key="yml" value="2" />
         </counts>
@@ -114,15 +108,15 @@
           <entry key="CLASS" value="9" />
           <entry key="CSS" value="8" />
           <entry key="Groovy" value="1" />
-          <entry key="HTML" value="17" />
-          <entry key="JAVA" value="108" />
+          <entry key="HTML" value="19" />
+          <entry key="JAVA" value="110" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="13" />
-          <entry key="SQL" value="2" />
-          <entry key="TypeScript" value="50" />
+          <entry key="SQL" value="3" />
+          <entry key="TypeScript" value="55" />
           <entry key="XML" value="10" />
           <entry key="YAML" value="2" />
           <entry key="tsconfig" value="5" />
@@ -130,7 +124,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="1" />
+          <entry key="Angular2LanguageService" value="2" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -141,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="380">
+              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -151,22 +145,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.ts">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/index.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.routing.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
+            <state relative-caret-position="221">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -175,56 +171,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/index.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.module.ts">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/authentication.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+            <state relative-caret-position="279">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="17" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/data.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/SecurityCredentialsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -284,8 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/bookRegistry/config/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/AuthServerOAuth2Config.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/ServerSecurityConfig.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/UserServiceApplication.java" />
@@ -323,18 +321,20 @@
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/filter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/lib-app/src/app/_services/authentication.service.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-admin/index.ts" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/_helpers/jwt.interceptor.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/_guards/auth.guard.ts" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html" />
         <option value="$PROJECT_DIR$/lib-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/lib-app/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/lib-app/src/styles.css" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/index.ts" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/app.routing.ts" />
       </list>
     </option>
   </component>
@@ -366,10 +366,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1765" />
-    <option name="y" value="297" />
-    <option name="width" value="1910" />
-    <option name="height" value="810" />
+    <option name="x" value="1920" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -377,7 +377,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,22 +409,6 @@
               <item name="lib-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="_guards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="_helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="_services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -441,11 +425,27 @@
               <item name="lib-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home-reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
               <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -514,18 +514,6 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="netflixzuulapigatewayserver" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
               <item name="user-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -597,17 +585,13 @@
               <item name="user-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -625,21 +609,21 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/lib-app/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib-app/src/app" />
-      <recent name="$PROJECT_DIR$/angular-6-registration-login-example-cli-master/src/app" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angular-6-registration-login-example-cli-master/src" />
       <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/external" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.microservices.user.filter" />
       <recent name="com.microservices.user.config" />
       <recent name="com.microservices.book.persistance.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/angular-6-registration-login-example-cli-master/src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib-app/src/app" />
+      <recent name="$PROJECT_DIR$/angular-6-registration-login-example-cli-master/src/app" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/external" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -654,7 +638,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NetflixZuulApiGatewayServerApplication">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication (2)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -832,18 +816,18 @@
       <workItem from="1539167551079" duration="598000" />
       <workItem from="1539674666645" duration="3076000" />
       <workItem from="1539785411886" duration="12000" />
-      <workItem from="1540372249786" duration="15800000" />
+      <workItem from="1540372249786" duration="18918000" />
+      <workItem from="1540474383148" duration="2723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59889000" />
+    <option name="totallyTimeSpent" value="65730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.28922093" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.33671293" />
       <window_info id="Structure" order="1" sideWeight="0.50074077" side_tool="true" weight="0.26307365" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -851,14 +835,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40324324" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28756756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3481081" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32864866" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33081082" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.772973" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32972974" />
@@ -906,96 +890,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/app/form-field-overview-example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/material-module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="83" column="20" selection-start-line="45" selection-start-column="3" selection-end-line="83" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/app/form-field-overview-example.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/app/form-field-overview-example.ts" />
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/index.ts" />
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/styles.css" />
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/polyfills.ts" />
     <entry file="file://$PROJECT_DIR$/lib-app/src/polyfills.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/tsconfig.app.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/tsconfig.spec.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/app/form-field-overview-example.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/tsconfig.app.json" />
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/tsconfig.spec.json" />
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/main.ts" />
+    <entry file="file://$PROJECT_DIR$/pmrqaobqpyn.angular/src/app/form-field-overview-example.css" />
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/_directives/alert.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1004,22 +913,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/alert.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,11 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,31 +986,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/SecurityCredentialsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="40" selection-start-line="40" selection-end-line="41" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/JwtConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,9 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,57 +1024,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/authentication.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/home.component.html" />
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/home.component.ts" />
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/_guards/auth.guard.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/_helpers/error.interceptor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/_helpers/jwt.interceptor.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1216,42 +1046,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.routing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="170">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1270,6 +1076,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1277,13 +1090,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/index.ts">
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/index.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/authentication.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/SecurityCredentialsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="32" column="80" selection-start-line="32" selection-start-column="80" selection-end-line="32" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
