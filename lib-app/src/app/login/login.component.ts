@@ -49,8 +49,12 @@ export class LoginComponent implements OnInit {
             .subscribe(
                 data => {
                     const keys = data.headers.get("Authorization");
-                    console.log(keys);
-                    this.router.navigate(["/register"]);
+                    console.log(localStorage.getItem("authorities"));
+                    if(localStorage.getItem("authorities") == 'ROLE_ADMIN') {
+                        this.router.navigate(["/home-admin"]);
+                    } else {
+                        this.router.navigate(["/"]);
+                    }
                 },
                 error => {
                     this.alertService.error(error);
