@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496ba777-6463-4dcd-bcf7-b3ef1344e96a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib-app/src/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib-app/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/book-service/target/" />
@@ -53,12 +54,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="406" />
-          <entry key="html" value="587" />
+          <entry key="css" value="433" />
+          <entry key="html" value="600" />
           <entry key="java" value="781" />
-          <entry key="json" value="9" />
+          <entry key="json" value="27" />
           <entry key="md" value="6" />
           <entry key="properties" value="36" />
+          <entry key="scss" value="55" />
           <entry key="sql" value="90" />
           <entry key="ts" value="828" />
           <entry key="xml" value="60" />
@@ -67,12 +69,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="406" />
-          <entry key="HTML" value="587" />
+          <entry key="CSS" value="433" />
+          <entry key="HTML" value="600" />
           <entry key="JAVA" value="781" />
-          <entry key="JSON" value="9" />
+          <entry key="JSON" value="27" />
           <entry key="Markdown" value="6" />
           <entry key="Properties" value="36" />
+          <entry key="SCSS" value="55" />
           <entry key="SQL" value="90" />
           <entry key="TypeScript" value="828" />
           <entry key="XML" value="60" />
@@ -87,14 +90,15 @@
           <entry key="css" value="10" />
           <entry key="gradle" value="1" />
           <entry key="gradlew" value="1" />
-          <entry key="html" value="24" />
+          <entry key="html" value="25" />
           <entry key="java" value="125" />
           <entry key="js" value="1" />
-          <entry key="json" value="11" />
+          <entry key="json" value="15" />
           <entry key="md" value="2" />
           <entry key="properties" value="16" />
+          <entry key="scss" value="4" />
           <entry key="sql" value="4" />
-          <entry key="ts" value="69" />
+          <entry key="ts" value="72" />
           <entry key="xml" value="11" />
           <entry key="yml" value="2" />
         </counts>
@@ -104,18 +108,19 @@
           <entry key="CLASS" value="9" />
           <entry key="CSS" value="10" />
           <entry key="Groovy" value="1" />
-          <entry key="HTML" value="24" />
+          <entry key="HTML" value="25" />
           <entry key="JAVA" value="125" />
-          <entry key="JSON" value="6" />
+          <entry key="JSON" value="8" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="16" />
+          <entry key="SCSS" value="4" />
           <entry key="SQL" value="4" />
-          <entry key="TypeScript" value="69" />
+          <entry key="TypeScript" value="72" />
           <entry key="XML" value="11" />
           <entry key="YAML" value="2" />
-          <entry key="tsconfig" value="5" />
+          <entry key="tsconfig" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -129,94 +134,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-service/src/main/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="16" column="134" lean-forward="true" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/NetflixZuulApiGatewayServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/filter/CorsFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-              <folding>
-                <element signature="e#268#315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/_models/book.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="59" selection-start-column="44" selection-end-column="59" />
-              <folding>
-                <element signature="e#563#6292#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="55" column="101" selection-start-line="55" selection-start-column="101" selection-end-line="55" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="24" column="216" selection-start-line="24" selection-start-column="216" selection-end-line="24" selection-end-column="216" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/tslint.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/tsconfig.spec.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/tsconfig.app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -232,6 +199,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/material-module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/test.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -243,9 +224,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bookRegi</find>
-      <find>userInfoRestTemplateFactory</find>
-      <find>TokenStore</find>
       <find>WebSecurityConfiguration</find>
       <find>springSecurityFilterChain</find>
       <find>AuthorizationServerEndpointsConfiguration</find>
@@ -273,6 +251,9 @@
       <find>JwtInterceptor</find>
       <find>4200</find>
       <find>Origin</find>
+      <find>styles.css</find>
+      <find>$color</find>
+      <find>#205081</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pmrqaobqpyn.angular</dir>
@@ -287,7 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auth-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/microservices/auth/AuthServiceApplication.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/microservices/auth/config/SecurityCredentialsConfig.java" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.properties" />
@@ -335,9 +315,10 @@
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/model/Book.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/filter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/lib-app/src/styles.css" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" />
+        <option value="$PROJECT_DIR$/lib-app/src/theme.scss" />
+        <option value="$PROJECT_DIR$/lib-app/src/styles.css" />
       </list>
     </option>
   </component>
@@ -625,7 +606,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="WebSecurityConfiguration&#9;PSI&#9;JAVA://org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="angular.json&#9;FILE&#9;file:///home/NIX/slynko/ceng/repos/microservices/lib-app/angular.json&#10;WebSecurityConfiguration&#9;PSI&#9;JAVA://org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
@@ -665,7 +646,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BookServiceApplication (1)">
+  <component name="RunManager" selected="Spring Boot.NetflixZuulApiGatewayServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -674,20 +655,6 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="auth-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.AuthServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="auth-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.user.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -732,36 +699,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OauthClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.OauthClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResourceServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="resource-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ResourceServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.springcloudconfigserver.SpringCloudConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="book-service (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microservices.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.user.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -779,19 +719,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="book-service (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.microservices.bookRegistry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservices.bookRegistry.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -804,23 +731,15 @@
       <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
       <item itemvalue="Spring Boot.NetflixEurekaNamingServerApplication" />
       <item itemvalue="Spring Boot.BookServiceApplication (1)" />
-      <item itemvalue="Spring Boot.OauthClientApplication" />
-      <item itemvalue="Spring Boot.ResourceServerApplication" />
-      <item itemvalue="Spring Boot.AuthServerApplication" />
-      <item itemvalue="Spring Boot.AuthServiceApplication" />
       <item itemvalue="Spring Boot.NetflixZuulApiGatewayServerApplication" />
-      <item itemvalue="Spring Boot.UserServiceApplication" />
       <item itemvalue="Spring Boot.BookRegistryServiceApplication" />
-      <item itemvalue="Spring Boot.UserServiceApplication (1)" />
       <item itemvalue="Spring Boot.UserServiceApplication (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserServiceApplication (2)" />
         <item itemvalue="Spring Boot.NetflixZuulApiGatewayServerApplication" />
-        <item itemvalue="Spring Boot.UserServiceApplication (1)" />
+        <item itemvalue="Spring Boot.UserServiceApplication (2)" />
         <item itemvalue="Spring Boot.BookRegistryServiceApplication" />
-        <item itemvalue="Spring Boot.UserServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -844,12 +763,12 @@
       <workItem from="1539674666645" duration="3076000" />
       <workItem from="1539785411886" duration="12000" />
       <workItem from="1540372249786" duration="18918000" />
-      <workItem from="1540474383148" duration="16237000" />
+      <workItem from="1540474383148" duration="17880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79244000" />
+    <option name="totallyTimeSpent" value="80887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,22 +783,22 @@
     <frame x="1920" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.30309498" />
-      <window_info id="Structure" order="1" sideWeight="0.50074077" side_tool="true" weight="0.26307365" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.30309498" />
+      <window_info id="Web" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" id="Structure" order="3" sideWeight="0.50165015" side_tool="true" visible="true" weight="0.30309498" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40324324" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24108107" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.34486488" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.42162162" />
-      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32864866" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2745946" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2745946" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.772973" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32972974" />
@@ -927,46 +846,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.7.RELEASE/spring-security-config-5.0.7.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/JwtConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/filter/JwtTokenAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/filter/JwtUsernameAndPasswordAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -974,25 +853,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/tsconfig.spec.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/index.ts">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/material-module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/home.component.html" />
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/home/home.component.ts" />
@@ -1233,29 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="44" selection-end-column="59" />
-          <folding>
-            <element signature="e#563#6292#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1269,10 +1112,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/material-module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/tsconfig.spec.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/node_modules/@angular/material/_theming.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="993" column="1" selection-start-line="993" selection-start-column="1" selection-end-line="993" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="425">
+          <caret line="24" column="216" selection-start-line="24" selection-start-column="216" selection-end-line="24" selection-end-column="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="55" column="101" selection-start-line="55" selection-start-column="101" selection-end-line="55" selection-end-column="101" />
         </state>
       </provider>
     </entry>
