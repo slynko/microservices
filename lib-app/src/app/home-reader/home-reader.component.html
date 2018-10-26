@@ -4,26 +4,37 @@
   <button mat-button class="btn-login text-bold">Taken books</button>
 </mat-toolbar>
 
-<mat-grid-list cols="3" >
-  <mat-grid-tile *ngFor="let book of books" class="book-grid-title">
-    <mat-card class="book-card" >
-      <mat-card-header>
-        <div mat-card-avatar class="book-header-image"></div>
-        <mat-card-title>{{ book.title}}</mat-card-title>
-        <mat-card-subtitle>{{ book.author }} - {{ book.edition }}</mat-card-subtitle>
-        <mat-card-subtitle>{{ book.publicationDateTime }}</mat-card-subtitle>
 
-      </mat-card-header>
-      <img mat-card-image src="https://www.mockupworld.co/wp-content/uploads/edd/2017/04/clean-magazine-brochure-mockup-3.jpg" alt="Photo of a Shiba Inu">
-      <mat-card-content>
-        <p>
-         {{ book.description }}
-        </p>
-      </mat-card-content>
-      <mat-card-actions>
-        <button mat-button>Read</button>
-        <button mat-button class="btn-float-right">Read in library</button>
-      </mat-card-actions>
-    </mat-card>
-  </mat-grid-tile>
-</mat-grid-list>
+<mat-sidenav-container class="book-container">
+  <mat-sidenav mode="side" opened class="book-sidenav">Sidenav content</mat-sidenav>
+  <mat-sidenav-content>
+    <mat-grid-list cols="3" rowHeight="600px">
+      <mat-grid-tile *ngFor="let book of books" class="book-grid-title ">
+        <mat-card class="book-card">
+          <mat-card-header>
+            <div mat-card-avatar class="book-header-image"></div>
+            <mat-card-title>{{ book.title}}</mat-card-title>
+            <mat-card-subtitle>
+              <b>Author:</b> {{ book.author }}<br/>
+              <b>Edition:</b> {{ book.edition }}<br/>
+              <b>Published:</b> {{ book.publicationDateTime | date:'MM/dd/yyyy' }}
+            </mat-card-subtitle>
+
+          </mat-card-header>
+          <img mat-card-image
+               src="https://us.123rf.com/450wm/shablon/shablon1612/shablon161201491/67102009-%EC%96%91%EC%9E%A5%EB%B3%B8-%EC%BA%94%EB%B2%84%EC%8A%A4-%EC%B1%85-%EB%AA%A8%EC%9D%98-%EC%97%85-%EB%92%B7%EB%A9%B4.jpg?ver=6"
+               alt="Photo of a Shiba Inu">
+          <mat-card-content>
+            <p>
+              {{ book.description }}
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button color="primary" class="text-bold">Read</button>
+            <button mat-button class="btn-float-right text-bold" color="primary">Read in library</button>
+          </mat-card-actions>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-sidenav-content>
+</mat-sidenav-container>

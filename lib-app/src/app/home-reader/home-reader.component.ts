@@ -26,9 +26,7 @@ export class HomeReaderComponent implements OnInit {
 
   private loadAllBooks() {
     this.bookService.getAll().pipe(first()).subscribe(books => {
-      console.log(books);
       this.books = books;
-      console.log(this.books);
     });
   }
 }

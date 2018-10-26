@@ -60,5 +60,9 @@ body {
 .card-login {
     width: 600px;
     margin: 50px auto;
+}
 
+
+.book-sidenav {
+  width: 300px;
 }
