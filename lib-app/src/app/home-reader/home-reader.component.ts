@@ -1,22 +1,21 @@
 ﻿import {Component, OnInit} from '@angular/core';
 import {first} from 'rxjs/operators';
 
-import {User} from '../_models';
-import {UserService} from '../_services';
+import {BookService} from '../_services';
+import {Book} from "../_models/book";
 
 @Component({
   templateUrl: 'home-reader.component.html'
 })
 export class HomeReaderComponent implements OnInit {
-  currentUser: User;
-  users: User[] = [];
+  books: Book[] = [];
 
-  constructor(private userService: UserService) {
-   // this.currentUser = localStorage.getItem('currentUserToken');
+  constructor(private bookService: BookService) {
   }
 
+
   ngOnInit() {
-   // this.loadAllUsers();
+   this.loadAllBooks();
   }
 
   deleteUser(id: number) {
@@ -25,9 +24,11 @@ export class HomeReaderComponent implements OnInit {
     //});
   }
 
-  private loadAllUsers() {
-   // this.userService.getAll().pipe(first()).subscribe(users => {
-   //   this.users = users;
-    //});
+  private loadAllBooks() {
+    this.bookService.getAll().pipe(first()).subscribe(books => {
+      console.log(books);
+      this.books = books;
+      console.log(this.books);
+    });
   }
 }

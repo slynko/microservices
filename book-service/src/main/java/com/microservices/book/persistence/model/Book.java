@@ -25,6 +25,8 @@ public class Book {
 	private String author;
 	@Column
 	private String edition;
+	@Column
+	private String description;
 	@Column(name = "publication_date_time")
 	private Instant publicationDateTime;
 
