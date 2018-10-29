@@ -7,11 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 
-@FeignClient(name="netflix-zuul-api-gateway-server")
+import java.util.Optional;
+
+@FeignClient(name="book-service")
 public interface BookServiceProxy {
 
 
-    @GetMapping("/book-service/book/{id}")
-    Book findById(@PathVariable("id") String id);
+    @GetMapping("/book/{bookId}")
+    Optional<Book> findById(@PathVariable("bookId") String bookId);
 
 }

@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -23,7 +24,7 @@ public class BookController {
     }
 
     @GetMapping("/book/{id}")
-    public Book findBook(@PathVariable String id) {
+    public Optional<Book> findBook(@PathVariable Long id) {
         return repository.findById(id);
     }
 
