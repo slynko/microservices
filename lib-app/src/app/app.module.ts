@@ -12,7 +12,7 @@ import {routing} from './app.routing';
 import {AlertComponent} from './_directives';
 import {AuthGuard} from './_guards';
 import {JwtInterceptor, ErrorInterceptor} from './_helpers';
-import {AlertService, AuthenticationService, UserService, BookService} from './_services';
+import {AlertService, AuthenticationService, UserService, BookService, BookRegistryService} from './_services';
 import {LoginComponent} from './login';
 import {RegisterComponent} from './register';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
@@ -48,6 +48,7 @@ import {HomeReaderComponent} from "./home-reader";
     AuthenticationService,
     UserService,
     BookService,
+    BookRegistryService,
     {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true},
     {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
 

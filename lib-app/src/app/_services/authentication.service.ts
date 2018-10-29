@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
 import { environment } from '../../environments/environment';
+import {decode} from "punycode";
 
 @Injectable()
 export class AuthenticationService {
@@ -17,9 +18,13 @@ export class AuthenticationService {
                   let jwtData = token.split('.')[1];
                   let decodedJwtJsonData = window.atob(jwtData);
                   let decodedJwtData = JSON.parse(decodedJwtJsonData);
-                    // store user details and jwt token in local storage to keep user logged in between page refreshes
+                  console.log(decodedJwtData);
+                  console.log(decodedJwtData.sub);
+
+                  // store user details and jwt token in local storage to keep user logged in between page refreshes
                     localStorage.setItem('currentUserToken', token);
                     localStorage.setItem('authorities', decodedJwtData.authorities);
+                    localStorage.setItem('login', decodedJwtData.sub);
                 }
                 return user;
             }));

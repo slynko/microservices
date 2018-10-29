@@ -11,6 +11,8 @@
         <module name="book-registry-service (1)" />
         <module name="book-service" />
         <module name="book-service (1)" />
+        <module name="currency-conversion-service" />
+        <module name="currency-exchange-service" />
         <module name="netflix-eureka-naming-server" />
         <module name="netflix-zuul-api-gateway-server" />
         <module name="spring-cloud-config-server" />
@@ -26,6 +28,8 @@
       <module name="book-service" target="1.8" />
       <module name="book-service (1)" target="1.8" />
       <module name="client" target="1.8" />
+      <module name="currency-conversion-service" target="1.8" />
+      <module name="currency-exchange-service" target="1.8" />
       <module name="netflix-eureka-naming-server" target="1.8" />
       <module name="netflix-zuul-api-gateway-server" target="1.8" />
       <module name="resource-server" target="1.8" />

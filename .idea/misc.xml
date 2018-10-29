@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-security/auth-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-security/client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-security/resource-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../currency-exchange-service/pom.xml" />
       </list>
     </option>
   </component>

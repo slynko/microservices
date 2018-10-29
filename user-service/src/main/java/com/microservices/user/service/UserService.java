@@ -42,4 +42,8 @@ public class UserService implements UserDetailsService {
     public List<com.microservices.user.persistence.model.User> findAll() {
         return userRepository.findAll();
     }
+
+    public com.microservices.user.persistence.model.User findUser(String login) {
+        return userRepository.findByLogin(login);
+    }
 }

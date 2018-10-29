@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/book-order-service/book-registry-service (1).iml" filepath="$PROJECT_DIR$/book-order-service/book-registry-service (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/book-service/book-service.iml" filepath="$PROJECT_DIR$/book-service/book-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/book-service (1).iml" filepath="$PROJECT_DIR$/user-service/book-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../currency-conversion-service/currency-conversion-service.iml" filepath="$PROJECT_DIR$/../currency-conversion-service/currency-conversion-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../currency-exchange-service/currency-exchange-service.iml" filepath="$PROJECT_DIR$/../currency-exchange-service/currency-exchange-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices.iml" filepath="$PROJECT_DIR$/.idea/microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix-eureka-naming-server/netflix-eureka-naming-server.iml" filepath="$PROJECT_DIR$/netflix-eureka-naming-server/netflix-eureka-naming-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflix-zuul-api-gateway-server.iml" filepath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflix-zuul-api-gateway-server.iml" />

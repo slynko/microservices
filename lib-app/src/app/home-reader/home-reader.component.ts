@@ -3,6 +3,7 @@ import {first} from 'rxjs/operators';
 
 import {BookService} from '../_services';
 import {Book} from "../_models/book";
+import {BookRegistryService} from "../_services";
 
 @Component({
   templateUrl: 'home-reader.component.html'
@@ -10,7 +11,7 @@ import {Book} from "../_models/book";
 export class HomeReaderComponent implements OnInit {
   books: Book[] = [];
 
-  constructor(private bookService: BookService) {
+  constructor(private bookService: BookService, private bookRegistryService: BookRegistryService) {
   }
 
 
@@ -28,5 +29,12 @@ export class HomeReaderComponent implements OnInit {
     this.bookService.getAll().pipe(first()).subscribe(books => {
       this.books = books;
     });
+  }
+
+  readBook(id: number) {
+    let login = localStorage.getItem("login");
+    this.bookRegistryService.addBookRecord(login, id).pipe(first()).subscribe(books => {
+      console.log("test");
+    });;
   }
 }

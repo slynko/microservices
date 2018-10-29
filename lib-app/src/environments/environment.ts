@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   apiUrl: 'http://localhost:8766',
   bookServiceUrl: 'http://localhost:8766/book-service',
+  bookRegistryServiceUrl: 'http://localhost:8766/book-registry-service',
 };
 
 /*
