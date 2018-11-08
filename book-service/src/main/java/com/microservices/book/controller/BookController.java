@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.Instant;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Optional;
@@ -49,22 +48,22 @@ public class BookController {
 
     @GetMapping("/book/title/{title}")
     public List<Book> findByTitle(@PathVariable String title) {
-        return repository.findByTitle(title);
+        return repository.findByTitleContaining(title);
     }
 
     @GetMapping("/book/author/{author}")
     public List<Book> findByAuthor(@PathVariable String author) {
-        return repository.findByAuthor(author);
+        return repository.findByAuthorContaining(author);
     }
 
     @GetMapping("/book/author/{author}/title/{title}")
     public List<Book> findByAuthorAndTitle(@PathVariable String author, @PathVariable String title) {
-        return repository.findByAuthorAndTitle(author, title);
+        return repository.findByAuthorAndTitleContaining(author, title);
     }
 
     @GetMapping("/book/edition/{edition}")
     public List<Book> findByEdition(@PathVariable String edition) {
-        return repository.findByEdition(edition);
+        return repository.findByEditionContaining(edition);
     }
 
     @GetMapping("/book/year/{year}")

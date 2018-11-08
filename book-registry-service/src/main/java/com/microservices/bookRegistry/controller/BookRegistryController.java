@@ -32,10 +32,11 @@ public class BookRegistryController {
         BookRecord bookRecord = new BookRecord();
         bookRecord.setLogin(login);
         bookRecord.setBookId(bookId);
-        bookRecord.setBookStatus(BookStatus.valueOf(bookRecordRequest.getStatus()));
+        bookRecord.setBookStatus(BookStatus.valueOf(bookRecordRequest.getStatus().toUpperCase()));
         bookRecord.setFromDate(Instant.now());
         bookRecord.setDueDate(bookRecordRequest.getDueDateTime());
         bookRecord.setPenalty(0d);
+        bookRecord.setApproved(false);
 
         return repository.save(bookRecord);
     }

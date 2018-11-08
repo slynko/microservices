@@ -1,29 +1,45 @@
-﻿<mat-toolbar color="primary">
+﻿<mat-toolbar color="primary" class="toolbar">
   <button mat-button class="btn-login text-bold	">Books</button>
 
-  <button mat-button class="btn-login text-bold">Taken books</button>
+  <button mat-button class="btn-login text-bold">My books</button>
 </mat-toolbar>
 
 
 <mat-sidenav-container class="book-container">
 
-  <mat-sidenav mode="side" opened class="book-sidenav">
+  <mat-sidenav mode="side" opened class="book-sidenav" [fixedInViewport]="true" [fixedTopGap]="50">
+    <mat-accordion>
+      <mat-expansion-panel class="margin20">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Search
+          </mat-panel-title>
+        </mat-expansion-panel-header>
 
-    <form class="book-filter-form">
-      <h2>Filter</h2>
-      <mat-form-field class="example-full-width">
-        <input matInput placeholder="Find by title"/>
-      </mat-form-field>
+        <form class="book-filter-form">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Find by title" [(ngModel)]="title" [ngModelOptions]="{standalone: true}"/>
+          </mat-form-field>
 
-      <mat-form-field class="example-full-width">
-        <input matInput placeholder="Find by author"/>
-      </mat-form-field>
-    </form>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Find by author" [(ngModel)]="author" [ngModelOptions]="{standalone: true}"/>
+          </mat-form-field>
+          <button mat-raised-button color="primary" class="text-bold" (click)="searchBooks()">Apply</button>
+
+        </form>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+
   </mat-sidenav>
-
   <mat-sidenav-content>
-    <mat-grid-list cols="3" rowHeight="600px">
-      <mat-grid-tile *ngFor="let book of books" class="book-grid-title ">
+    <mat-progress-bar [style.display]="loading ? 'block' : 'none'" mode="indeterminate"
+                      class="margin20 progress-bar-books"></mat-progress-bar>
+    <div *ngIf="!loading && loaded && visibleBooks.length == 0" class="alert alert-primary">
+      <div>No books with such author and/or title</div>
+    </div>
+    <mat-grid-list cols="3" rowHeight="600px" *ngIf="!loading">
+      <mat-grid-tile *ngFor="let book of visibleBooks" class="book-grid-title ">
         <mat-card class="book-card">
           <mat-card-header>
             <div mat-card-avatar class="book-header-image"></div>

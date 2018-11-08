@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496ba777-6463-4dcd-bcf7-b3ef1344e96a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib-app/src/app/_models/BookRecordRequest.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/BookOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/BookOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-order-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/book-order-service/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/controller/BookRegistryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/controller/BookRegistryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-registry-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/book-registry-service/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib-app/src/app/_services/book.registry.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/_services/book.registry.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib-app/src/app/_services/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/_services/book.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib-app/src/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/book-service/target/" />
     <ignored path="$PROJECT_DIR$/netflix-eureka-naming-server/target/" />
@@ -57,44 +64,44 @@
     <session id="-1455544767">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="539" />
-          <entry key="html" value="1028" />
-          <entry key="java" value="2821" />
+          <entry key="css" value="646" />
+          <entry key="html" value="1497" />
+          <entry key="java" value="2912" />
           <entry key="json" value="27" />
           <entry key="md" value="6" />
           <entry key="properties" value="36" />
           <entry key="scss" value="55" />
-          <entry key="sql" value="294" />
-          <entry key="ts" value="1618" />
+          <entry key="sql" value="311" />
+          <entry key="ts" value="2669" />
           <entry key="xml" value="112" />
           <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="539" />
-          <entry key="HTML" value="1028" />
-          <entry key="JAVA" value="2821" />
+          <entry key="CSS" value="646" />
+          <entry key="HTML" value="1497" />
+          <entry key="JAVA" value="2912" />
           <entry key="JSON" value="27" />
           <entry key="Markdown" value="6" />
           <entry key="Properties" value="36" />
           <entry key="SCSS" value="55" />
-          <entry key="SQL" value="269" />
+          <entry key="SQL" value="286" />
           <entry key="Scratch" value="25" />
-          <entry key="TypeScript" value="1618" />
+          <entry key="TypeScript" value="2669" />
           <entry key="XML" value="112" />
           <entry key="YAML" value="13" />
         </counts>
@@ -104,18 +111,18 @@
           <entry key="bat" value="1" />
           <entry key="class" value="9" />
           <entry key="cmd" value="2" />
-          <entry key="css" value="11" />
+          <entry key="css" value="13" />
           <entry key="gradle" value="1" />
           <entry key="gradlew" value="1" />
-          <entry key="html" value="31" />
-          <entry key="java" value="184" />
+          <entry key="html" value="35" />
+          <entry key="java" value="192" />
           <entry key="js" value="1" />
           <entry key="json" value="15" />
           <entry key="md" value="2" />
           <entry key="properties" value="20" />
           <entry key="scss" value="6" />
-          <entry key="sql" value="8" />
-          <entry key="ts" value="88" />
+          <entry key="sql" value="9" />
+          <entry key="ts" value="95" />
           <entry key="xml" value="16" />
           <entry key="yml" value="2" />
         </counts>
@@ -123,19 +130,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="CSS" value="11" />
+          <entry key="CSS" value="13" />
           <entry key="Groovy" value="1" />
-          <entry key="HTML" value="31" />
-          <entry key="JAVA" value="184" />
+          <entry key="HTML" value="35" />
+          <entry key="JAVA" value="192" />
           <entry key="JSON" value="8" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="20" />
           <entry key="SCSS" value="6" />
-          <entry key="SQL" value="7" />
+          <entry key="SQL" value="8" />
           <entry key="Scratch" value="1" />
-          <entry key="TypeScript" value="88" />
+          <entry key="TypeScript" value="95" />
           <entry key="XML" value="16" />
           <entry key="YAML" value="2" />
           <entry key="tsconfig" value="7" />
@@ -143,7 +150,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="4" />
+          <entry key="Angular2LanguageService" value="5" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -151,100 +158,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/controller/BookOrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/BookOrderServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/BookOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book-order-service/src/main/resources/data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/material-module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-976">
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="544">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -252,8 +170,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -269,13 +226,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lomb</find>
-      <find>get</find>
-      <find>JasonWatmore.com</find>
-      <find>schemas</find>
-      <find>prebuilt-themes</find>
-      <find>example-container</find>
-      <find>Angular</find>
       <find>Angular 6</find>
       <find>CorsFilter</find>
       <find>Cors</find>
@@ -299,6 +249,13 @@
       <find>security.oauth2</find>
       <find>Authorization</find>
       <find>secur</find>
+      <find>due_date</find>
+      <find>his.http.</find>
+      <find>error</find>
+      <find>/book/</find>
+      <find>1565c0</find>
+      <find>submi</find>
+      <find>require</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pmrqaobqpyn.angular</dir>
@@ -313,13 +270,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib-app/src/app/home-admin/home-admin.component.html" />
         <option value="$PROJECT_DIR$/lib-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/lib-app/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/index.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/_services/book.service.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/_helpers/jwt.interceptor.ts" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/filter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/config/SecurityTokenConfig.java" />
@@ -328,42 +283,44 @@
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/filter/CorsFilter.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/lib-app/src/theme.scss" />
-        <option value="$PROJECT_DIR$/lib-app/src/styles.css" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/lib-app/src/app/_services/authentication.service.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/_services/index.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/_services/book.registry.service.ts" />
         <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/interceptor/UserFeignClientInterceptor.java" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/interceptor/UserFeignClientInterceptor.java" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/NetflixZuulApiGatewayServerApplication.java" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/proxy/UserServiceProxy.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/config/SecurityCredentialsConfig.java" />
-        <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecord.java" />
         <option value="$PROJECT_DIR$/book-registry-service/pom.xml" />
         <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/BookRegistryServiceApplication.java" />
         <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/proxy/BookServiceProxy.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52f71524-38da-4338-a732-7a2bb9c65e21/console.sql" />
-        <option value="$PROJECT_DIR$/book-registry-service/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/OrderStatus.java" />
-        <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookStatus.java" />
         <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecordRequest.java" />
         <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/BookRegistryRepository.java" />
-        <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/controller/BookRegistryController.java" />
         <option value="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/BookOrderRepository.java" />
         <option value="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/controller/BookOrderController.java" />
-        <option value="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java" />
         <option value="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/controller/BookController.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/controller/model/BlockUserRequest.java" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/microservices/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/lib-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/dialog-overview-example-dialog.html" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html" />
-        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" />
         <option value="$PROJECT_DIR$/book-order-service/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/persistence/model/BookOrder.java" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/_services/book.service.ts" />
+        <option value="$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java" />
+        <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookStatus.java" />
+        <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecord.java" />
+        <option value="$PROJECT_DIR$/book-registry-service/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/_services/book.registry.service.ts" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/_models/BookRecordRequest.ts" />
+        <option value="$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/controller/BookRegistryController.java" />
+        <option value="$PROJECT_DIR$/lib-app/src/styles.css" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts" />
+        <option value="$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html" />
       </list>
     </option>
   </component>
@@ -389,11 +346,6 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/lib-app/node_modules" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/lib-app/package.json" />
-    </packageJsonPaths>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="25" />
@@ -406,6 +358,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -479,18 +432,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
               <item name="bookOrder" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="book-order-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="bookOrder" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -509,7 +450,100 @@
             <path>
               <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices" type="462c0819:PsiDirectoryNode" />
-              <item name="book-order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="bookRegistry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="bookRegistry" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="bookRegistry" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="bookRegistry" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="book-registry-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -538,13 +572,36 @@
               <item name="lib-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="home-reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices" type="462c0819:PsiDirectoryNode" />
+              <item name="lib-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -554,7 +611,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="angular.json&#9;FILE&#9;file:///home/NIX/slynko/ceng/repos/microservices/lib-app/angular.json&#10;WebSecurityConfiguration&#9;PSI&#9;JAVA://org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="BookRepo&#9;FILE&#9;file:///home/NIX/slynko/ceng/repos/microservices/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java&#10;angular.json&#9;FILE&#9;file:///home/NIX/slynko/ceng/repos/microservices/lib-app/angular.json&#10;WebSecurityConfiguration&#9;PSI&#9;JAVA://org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
@@ -831,12 +888,13 @@
       <workItem from="1540826263313" duration="5765000" />
       <workItem from="1540836051737" duration="1569000" />
       <workItem from="1540907166694" duration="1197000" />
-      <workItem from="1541665888935" duration="6687000" />
+      <workItem from="1541665888935" duration="6760000" />
+      <workItem from="1541684289944" duration="7622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97341000" />
+    <option name="totallyTimeSpent" value="105036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -851,27 +909,27 @@
     <frame x="1920" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24493062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31483456" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.32972974" />
-      <window_info anchor="bottom" id="Database Console" weight="0.26702702" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24972972" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16972972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.04756757" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22594595" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.2854054" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32864866" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.26702702" />
+      <window_info anchor="bottom" id="TypeScript" order="15" weight="0.2972973" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -929,33 +987,17 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>BookStatus.valueOf(&quot;LIBRARY&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib-app/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/external/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../currency-conversion-service/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/CurrencyConversionBean.java" />
-    <entry file="file://$PROJECT_DIR$/../currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/CurrencyExchangeServiceProxy.java" />
-    <entry file="file://$PROJECT_DIR$/../currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/CurrencyConversionServiceApplication.java" />
     <entry file="file://$PROJECT_DIR$/../currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/CurrencyConverterController.java" />
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/book.registry.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/microservices/netflixzuulapigatewayserver/interceptor/UserFeignClientInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1016,16 +1058,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/proxy/UserServiceProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/proxy/UserServiceProxy.java" />
     <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1040,9 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,73 +1090,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/proxy/BookServiceProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/BookRegistryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecordRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/controller/BookRegistryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1808#1809#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,19 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,11 +1158,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,49 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/material-module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-976">
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1276,17 +1182,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book-order-service/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/material-module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/book.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="92" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-service/src/main/java/com/microservices/book/persistence/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/BookRegistryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/book-order-service/src/main/java/com/microservices/bookOrder/BookOrderServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book-order-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1300,13 +1255,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecordRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_models/BookRecordRequest.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/persistence/model/BookStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="88" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book-registry-service/src/main/java/com/microservices/bookRegistry/controller/BookRegistryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_services/book.registry.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="74" lean-forward="true" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/_models/book.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        <state relative-caret-position="544">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="41" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/home-reader.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib-app/src/app/home-reader/book-order-dialog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>

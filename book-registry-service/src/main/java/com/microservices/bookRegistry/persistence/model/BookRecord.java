@@ -37,4 +37,6 @@ public class BookRecord {
 	private Instant dueDate;
 	@Column
 	private Double penalty;
+	@Column
+	private Boolean approved;
 }

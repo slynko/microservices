@@ -5,6 +5,7 @@ import {BookService} from '../_services';
 import {Book} from "../_models/book";
 import {BookRegistryService} from "../_services";
 import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from "@angular/material";
+import {BookRecordRequest} from "../_models/BookRecordRequest";
 
 export interface DialogData {
   bookOrderTypes: string;
@@ -17,14 +18,18 @@ export interface DialogData {
 })
 export class HomeReaderComponent implements OnInit {
   books: Book[] = [];
-  bookOrderTypes: String[];
-  bookOrderType: String;
+  visibleBooks: Book[] = [];
+  bookOrderTypes: string[];
+  bookOrderType: string;
   dueDate: Date;
+  title: string;
+  author: string;
+  loaded: boolean;
+  loading: boolean;
 
   constructor(private bookService: BookService, private bookRegistryService: BookRegistryService,
               public dialog: MatDialog) {
-    this.bookOrderTypes = ["Home", "In Library"];
-    console.log(this.bookOrderTypes);
+    this.bookOrderTypes = ["Home", "Library"];
   }
 
   openDialog(id: number): void {
@@ -50,25 +55,43 @@ export class HomeReaderComponent implements OnInit {
     this.loadAllBooks();
   }
 
-  deleteUser(id: number) {
-    //this.userService.delete(id).pipe(first()).subscribe(() => {
-    // this.loadAllUsers()
-    //});
-  }
-
   private loadAllBooks() {
     this.bookService.getAll().pipe(first()).subscribe(books => {
       this.books = books;
+      this.visibleBooks = books;
+      this.loaded = true;
     });
   }
 
   readBook(id: number) {
     let login = localStorage.getItem("login");
-    this.bookRegistryService.addBookRecord(login, id).pipe(first()).subscribe(books => {
+    let bookRecordRequest: BookRecordRequest = new BookRecordRequest();
+    bookRecordRequest.status = this.bookOrderType;
+    bookRecordRequest.dueDateTime = this.dueDate;
+
+    this.bookRegistryService.addBookRecord(login, id, bookRecordRequest).pipe(first()).subscribe(books => {
       console.log("test");
     });
 
   }
+
+  searchBooks() {
+    let self = this;
+    this.loading = true;
+    setTimeout(function () {
+      if (self.title && self.author) {
+        self.visibleBooks = self.books.filter(book => book.title.includes(self.title) && book.author.includes(self.author));
+      } else if (self.title && !self.author) {
+        self.visibleBooks = self.books.filter(book => book.title.includes(self.title));
+      } else if (!self.title && self.author) {
+        self.visibleBooks = self.books.filter(book => book.author.includes(self.author));
+      } else {
+        self.visibleBooks = self.books;
+      }
+      self.loading = false;
+    }, 1000);
+  }
+
 }
 
 
