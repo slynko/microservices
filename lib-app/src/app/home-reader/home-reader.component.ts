@@ -5,7 +5,8 @@ import {BookService} from '../_services';
 import {Book} from "../_models/book";
 import {BookRegistryService} from "../_services";
 import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from "@angular/material";
-import {BookRecordRequest} from "../_models/BookRecordRequest";
+import {BookRecordRequest} from "../_models/bookRecordRequest";
+import {Router} from "@angular/router";
 
 export interface DialogData {
   bookOrderTypes: string;
@@ -28,7 +29,7 @@ export class HomeReaderComponent implements OnInit {
   loading: boolean;
 
   constructor(private bookService: BookService, private bookRegistryService: BookRegistryService,
-              public dialog: MatDialog) {
+              public dialog: MatDialog, private router: Router) {
     this.bookOrderTypes = ["Home", "Library"];
   }
 
@@ -46,7 +47,7 @@ export class HomeReaderComponent implements OnInit {
       this.bookOrderType = result.bookOrderType;
       this.dueDate = result.dueDate;
 
-      this.readBook(id); //TODO: continue here add book order call
+      this.readBook(id);
     });
   }
 
@@ -92,6 +93,13 @@ export class HomeReaderComponent implements OnInit {
     }, 1000);
   }
 
+  openMyBooks() {
+    this.router.navigate(["/my-books-reader"]);
+  }
+
+  openAllBooks() {
+    this.router.navigate(["/home-reader"]);
+  }
 }
 
 

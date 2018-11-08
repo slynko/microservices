@@ -1,31 +1,38 @@
-﻿import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+﻿import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
 
-import { environment } from '../../environments/environment';
+import {environment} from '../../environments/environment';
 import {Book} from "../_models/book";
-import {BookRecordRequest} from "../_models/BookRecordRequest";
+import {BookRecordRequest} from "../_models/bookRecordRequest";
+import {BookRecord} from "../_models/bookRecord";
 
 @Injectable()
 export class BookRegistryService {
-    constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+  }
 
-    getAll() {
-        return this.http.get<Book[]>(`${environment.bookRegistryServiceUrl}/book-record`);
-    }
+  getAll() {
+    return this.http.get<Book[]>(`${environment.bookRegistryServiceUrl}/book-record`);
+  }
 
-    addBookRecord(login: string, bookId: number, bookRecordRequest: BookRecordRequest) {
-      return this.http.post(`${environment.bookRegistryServiceUrl}/book-record/${login}/${bookId}`, bookRecordRequest);
-    }
+  getByLogin() {
+    let login = localStorage.getItem("login");
+    return this.http.get<BookRecord[]>(`${environment.bookRegistryServiceUrl}/book-record/${login}`);
+  }
 
-    add(book: Book) {
-        return this.http.post(`${environment.bookServiceUrl}/book/add`, book);
-    }
+  addBookRecord(login: string, bookId: number, bookRecordRequest: BookRecordRequest) {
+    return this.http.post(`${environment.bookRegistryServiceUrl}/book-record/${login}/${bookId}`, bookRecordRequest);
+  }
 
-    // update(book: Book) {
-    //     return this.http.put(`${environment.bookServiceUrl}/book/` + book.id, book);
-    // }
-    //
-    // delete(id: number) {
-    //     return this.http.delete(`${environment.bookServiceUrl}/book/` + id);
-    // }
+  add(book: Book) {
+    return this.http.post(`${environment.bookServiceUrl}/book/add`, book);
+  }
+
+  // update(book: Book) {
+  //     return this.http.put(`${environment.bookServiceUrl}/book/` + book.id, book);
+  // }
+  //
+  // delete(id: number) {
+  //     return this.http.delete(`${environment.bookServiceUrl}/book/` + id);
+  // }
 }

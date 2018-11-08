@@ -1,5 +1,6 @@
 package com.microservices.book.controller;
 
+import com.microservices.book.controller.model.BooksRequest;
 import com.microservices.book.persistence.BookRepository;
 import com.microservices.book.persistence.model.Book;
 import lombok.RequiredArgsConstructor;
@@ -71,5 +72,10 @@ public class BookController {
         Calendar instance = Calendar.getInstance();
         instance.set(Integer.valueOf(year), Calendar.JANUARY, 0);
         return repository.findByPublicationDateTimeAfter(instance.toInstant());
+    }
+
+    @PostMapping("/book/searches")
+    public List<Book> findByIds(@RequestBody BooksRequest booksRequest) {
+        return repository.findByIdIn(booksRequest.getIds());
     }
 }

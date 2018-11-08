@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.time.Instant;
 import java.util.List;
+import java.util.Set;
 
 @Repository
 public interface BookRepository extends JpaRepository<Book, Long> {
@@ -15,4 +16,5 @@ public interface BookRepository extends JpaRepository<Book, Long> {
   List<Book> findByAuthorAndTitleContaining(String author, String title);
   List<Book> findByEditionContaining(String edition);
   List<Book> findByPublicationDateTimeAfter(Instant publicationDateTime);
+  List<Book> findByIdIn(Set<Long> ids);
 }

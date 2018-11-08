@@ -20,6 +20,7 @@ import {DemoMaterialModule} from "../material-module";
 import {MatNativeDateModule} from "@angular/material";
 import {HomeAdminComponent} from "./home-admin";
 import {DialogOverviewExampleDialog, HomeReaderComponent} from "./home-reader";
+import {MyBooksReaderComponent} from "./my-books-reader";
 
 @NgModule({
   imports: [
@@ -39,8 +40,9 @@ import {DialogOverviewExampleDialog, HomeReaderComponent} from "./home-reader";
     AlertComponent,
     LoginComponent,
     RegisterComponent,
-      HomeAdminComponent,
+    HomeAdminComponent,
     HomeReaderComponent,
+    MyBooksReaderComponent,
     DialogOverviewExampleDialog
   ],
   providers: [

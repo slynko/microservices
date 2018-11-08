@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http';
 
 import {environment} from '../../environments/environment';
 import {Book} from "../_models/book";
+import {BooksRequest} from "../_models/booksRequest";
 
 @Injectable()
 export class BookService {
@@ -43,5 +44,9 @@ export class BookService {
 
   delete(id: number) {
     return this.http.delete(`${environment.bookServiceUrl}/book/` + id);
+  }
+
+  findByIds(booksRequest: BooksRequest) {
+    return this.http.post<Book[]>(`${environment.bookServiceUrl}/book/searches`, booksRequest);
   }
 }
