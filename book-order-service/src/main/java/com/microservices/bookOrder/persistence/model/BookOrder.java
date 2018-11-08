@@ -10,6 +10,7 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
+import java.time.Instant;
 
 @Data
 @Builder
@@ -27,4 +28,6 @@ public class BookOrder {
 	@Enumerated(EnumType.STRING)
 	@Column(name = "order_status")
 	private OrderStatus orderStatus;
+	@Column(name = "due_date")
+	private Instant dueDate;
 }

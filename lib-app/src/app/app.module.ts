@@ -19,7 +19,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {DemoMaterialModule} from "../material-module";
 import {MatNativeDateModule} from "@angular/material";
 import {HomeAdminComponent} from "./home-admin";
-import {HomeReaderComponent} from "./home-reader";
+import {DialogOverviewExampleDialog, HomeReaderComponent} from "./home-reader";
 
 @NgModule({
   imports: [
@@ -40,7 +40,8 @@ import {HomeReaderComponent} from "./home-reader";
     LoginComponent,
     RegisterComponent,
       HomeAdminComponent,
-    HomeReaderComponent
+    HomeReaderComponent,
+    DialogOverviewExampleDialog
   ],
   providers: [
     AuthGuard,
@@ -55,6 +56,7 @@ import {HomeReaderComponent} from "./home-reader";
     // provider used to create fake backend
     fakeBackendProvider
   ],
+  entryComponents: [DialogOverviewExampleDialog],
   bootstrap: [AppComponent]
 })
 

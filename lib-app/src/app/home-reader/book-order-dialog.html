@@ -1,0 +1,22 @@
+<h1 mat-dialog-title>Bood order data</h1>
+<div mat-dialog-content>
+  <p>Where would you like to read the book ?</p>
+  <mat-form-field>
+    <mat-select placeholder="Book order type" [(ngModel)]="data.bookOrderType">
+      <mat-option *ngFor="let bookOrderType of data.bookOrderTypes" [value]="bookOrderType" >
+        {{bookOrderType}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <p>When would you like to return it ?</p>
+  <mat-form-field>
+    <input matInput [matDatepicker]="picker" placeholder="Due date" [value]="data.dueDate" [(ngModel)]="data.dueDate">
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+  <button mat-button (click)="onNoClick()">Back</button>
+</div>
