@@ -30,4 +30,8 @@ public class BookOrderController {
         }).orElseThrow(OrderNotFoundException::new);
     }
 
+    @GetMapping("/book-order/{login}")
+    public List<BookOrder> getByLogin(@PathVariable String login) {
+        return repository.findByLogin(login);
+    }
 }
