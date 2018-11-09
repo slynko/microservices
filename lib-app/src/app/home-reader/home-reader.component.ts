@@ -27,6 +27,8 @@ export class HomeReaderComponent implements OnInit {
   author: string;
   loaded: boolean;
   loading: boolean;
+  bookAdded: boolean;
+  bookNotAdded: boolean;
 
   constructor(private bookService: BookService, private bookRegistryService: BookRegistryService,
               public dialog: MatDialog, private router: Router) {
@@ -44,10 +46,25 @@ export class HomeReaderComponent implements OnInit {
     });
 
     dialogRef.afterClosed().subscribe(result => {
+      let self = this;
       this.bookOrderType = result.bookOrderType;
       this.dueDate = result.dueDate;
 
-      this.readBook(id);
+      if (this.bookOrderType == 'Home' || (this.bookOrderType !== undefined && this.dueDate !== undefined)) {
+        this.readBook(id);
+        this.bookAdded = true;
+
+        setTimeout(function () {
+          self.bookAdded = false;
+        }, 7000);
+      } else {
+        this.bookNotAdded = true;
+
+        setTimeout(function () {
+          self.bookNotAdded = false;
+        }, 7000);
+      }
+
     });
   }
 

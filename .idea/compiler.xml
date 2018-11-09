@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="book-order-service" />
         <module name="book-registry-service" />
         <module name="book-registry-service (1)" />
         <module name="book-service" />

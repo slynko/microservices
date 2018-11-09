@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/book-registry-service/pom.xml" />
-        <option value="$PROJECT_DIR$/book-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-security/auth-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-security/client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-security/resource-server/pom.xml" />

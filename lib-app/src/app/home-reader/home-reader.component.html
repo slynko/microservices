@@ -32,11 +32,19 @@
 
 
   </mat-sidenav>
-  <mat-sidenav-content>
+  <mat-sidenav-content class="book-content">
     <mat-progress-bar [style.display]="loading ? 'block' : 'none'" mode="indeterminate"
                       class="margin20 progress-bar-books"></mat-progress-bar>
     <div *ngIf="!loading && loaded && visibleBooks.length == 0" class="alert alert-primary">
       <div>No books with such author and/or title</div>
+    </div>
+
+    <div *ngIf="bookAdded" class="alert alert-success">
+      <div>Request was sent, see current status on 'My books' page</div>
+    </div>
+
+    <div *ngIf="bookNotAdded" class="alert alert-danger ">
+      <div>Request was not sent, please check if all fields are specified</div>
     </div>
     <mat-grid-list cols="3" rowHeight="600px" *ngIf="!loading">
       <mat-grid-tile *ngFor="let book of visibleBooks" class="book-grid-title ">
