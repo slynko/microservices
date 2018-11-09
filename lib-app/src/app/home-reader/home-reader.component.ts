@@ -29,10 +29,12 @@ export class HomeReaderComponent implements OnInit {
   loading: boolean;
   bookAdded: boolean;
   bookNotAdded: boolean;
+  login: string;
 
   constructor(private bookService: BookService, private bookRegistryService: BookRegistryService,
               public dialog: MatDialog, private router: Router) {
     this.bookOrderTypes = ["Home", "Library"];
+    this.login = localStorage.getItem("login");
   }
 
   openDialog(id: number): void {

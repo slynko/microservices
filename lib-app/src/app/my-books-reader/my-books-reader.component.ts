@@ -21,9 +21,12 @@ export class MyBooksReaderComponent implements OnInit {
   bookRecords: BookRecord[] = [];
   books: Book[] = [];
   displayedColumns: string[] = ['title', 'fromDate', 'dueDate', 'penalty', 'status', 'approved'];
+  login: string;
 
   constructor(private bookService: BookService, private bookRegistryService: BookRegistryService,
               private router: Router) {
+    this.login = localStorage.getItem("login");
+
   }
 
   ngOnInit() {

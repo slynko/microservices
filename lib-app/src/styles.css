@@ -98,14 +98,14 @@ body {
 .progress-bar-books {
   width: 95% !important;
 }
-
-
 table {
   margin: 0 auto;
   width: 100%;
 
 }
-
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
 .book-content {
   height: 94vh !important;
 }
