@@ -3,11 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
 import { environment } from '../../environments/environment';
-import {decode} from "punycode";
+import {Observable, Subject} from "rxjs/index";
 
 @Injectable()
 export class AuthenticationService {
-    constructor(private http: HttpClient) { }
+  loggedIn: boolean;
+  private logger = new Subject<boolean>();
+
+  constructor(private http: HttpClient) { }
 
     login(username: string, password: string) {
         return this.http.post<any>(`${environment.apiUrl}/auth`, { username: username, password: password },  { observe: 'response' })
@@ -25,6 +28,8 @@ export class AuthenticationService {
                     localStorage.setItem('currentUserToken', token);
                     localStorage.setItem('authorities', decodedJwtData.authorities);
                     localStorage.setItem('login', decodedJwtData.sub);
+                  this.loggedIn = true;
+                  this.logger.next(this.loggedIn);
                 }
                 return user;
             }));
@@ -35,5 +40,12 @@ export class AuthenticationService {
         localStorage.removeItem('currentUserToken');
         localStorage.removeItem('authorities');
         localStorage.removeItem('login');
+        this.loggedIn = false;
+      this.logger.next(this.loggedIn);
     }
+
+  isLoggedIn(): Observable<boolean> {
+    return this.logger.asObservable();
+  }
+
 }

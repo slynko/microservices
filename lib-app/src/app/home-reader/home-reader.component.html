@@ -1,20 +1,4 @@
-﻿<mat-toolbar color="primary" class="toolbar">
-  <button mat-button class="btn-login text-bold	" (click)="openAllBooks()">Books</button>
-
-  <button mat-button class="btn-login text-bold" (click)="openMyBooks()">My books</button>
-
-  <!-- This fills the remaining space of the current row -->
-  <span class="fill-remaining-space"></span>
-  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
-    <button mat-button class="text-bold">Hi, {{login}}!</button>
-    <i class="material-icons">face</i>
-
-  </div>
-
-</mat-toolbar>
-
-
-<mat-sidenav-container class="book-container">
+﻿<mat-sidenav-container class="book-container">
 
   <mat-sidenav mode="side" opened class="book-sidenav" [fixedInViewport]="true" [fixedTopGap]="50">
     <mat-accordion>
