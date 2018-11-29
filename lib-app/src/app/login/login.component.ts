@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
                     const keys = data.headers.get("Authorization");
                     console.log(localStorage.getItem("authorities"));
                     if(localStorage.getItem("authorities") == 'ROLE_ADMIN') {
-                        this.router.navigate(["/home-admin"]);
+                        this.router.navigate(["/users"]);
                     } else if(localStorage.getItem("authorities") == 'ROLE_READER') {
                       this.router.navigate(["/home-reader"]);
                     } else {

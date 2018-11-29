@@ -17,33 +17,37 @@ export interface DialogData {
 }
 
 @Component({
-  templateUrl: 'users.component.html'
+  templateUrl: 'librarians.component.html'
 })
-export class UsersComponent implements OnInit {
+export class LibrariansComponent implements OnInit {
   users: User[] = [];
-  displayedColumns: string[] = ['id', 'login', 'firstName', 'lastName', 'email', 'role', 'blocked', 'block'];
+  displayedColumns: string[] = ['id', 'login', 'firstName', 'lastName', 'email', 'blocked', 'delete'];
   login: string;
 
-  constructor(private userService: UserService) {
+  constructor(private router: Router,
+              private userService: UserService) {
     this.login = localStorage.getItem("login");
 
   }
 
   ngOnInit() {
-    this.loadAllUsers();
+    this.loadAllLibrarians();
   }
 
-  private loadAllUsers() {
-    this.userService.getAll().pipe(first()).subscribe(users => {
-      this.users = users;
+  private loadAllLibrarians() {
+    this.userService.getAllLibrarians().pipe(first()).subscribe(librarians => {
+      this.users = librarians;
     });
   }
 
-  blockUnblock(id: number) {
-    this.userService.blockUnblock(id).pipe(first()).subscribe(user => {
-      this.users.filter(u => u.id === user.id)
-        .map(u => u.isBlocked = user.isBlocked);
+  delete(id: number) {
+    this.userService.delete(id).pipe(first()).subscribe(() => {
+      this.users = this.users.filter(u => u.id !== id);
     });
+  }
+
+  addLibrarian() {
+    this.router.navigate(["/register"]);
   }
 }
 

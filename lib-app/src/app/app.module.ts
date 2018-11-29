@@ -23,6 +23,7 @@ import {DialogOverviewExampleDialog, HomeReaderComponent} from "./home-reader";
 import {MyBooksReaderComponent} from "./my-books-reader";
 import {NavigationComponent} from "./navigation/navigation.component";
 import {UsersComponent} from "./users-admin/users.component";
+import {LibrariansComponent} from "./librarians-admin/librarians.component";
 
 @NgModule({
   imports: [
@@ -38,6 +39,7 @@ import {UsersComponent} from "./users-admin/users.component";
     routing
   ],
   declarations: [
+    LibrariansComponent,
     UsersComponent,
     AppComponent,
     AlertComponent,

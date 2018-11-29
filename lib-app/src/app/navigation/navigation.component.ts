@@ -35,6 +35,10 @@ export class NavigationComponent implements OnInit {
     this.router.navigate(["/users"]);
   }
 
+  openAllLibrarians() {
+    this.router.navigate(["/librarians"]);
+  }
+
   logout() {
     this.router.navigate(["/"]);
   }

@@ -7,6 +7,7 @@ import {HomeAdminComponent} from "./home-admin";
 import {HomeReaderComponent,} from "./home-reader";
 import {MyBooksReaderComponent} from "./my-books-reader";
 import {UsersComponent} from "./users-admin/users.component";
+import {LibrariansComponent} from "./librarians-admin/librarians.component";
 
 const appRoutes: Routes = [
   {path: '', component: LoginComponent, canActivate: [AuthGuard]},
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   {path: 'home-reader', component: HomeReaderComponent, canActivate: [AuthGuard]},
   {path: 'my-books-reader', component: MyBooksReaderComponent, canActivate: [AuthGuard]},
   {path: 'users', component: UsersComponent, canActivate: [AuthGuard]},
+  {path: 'librarians', component: LibrariansComponent, canActivate: [AuthGuard]},
 
   // otherwise redirect to home
   {path: '**', redirectTo: ''}

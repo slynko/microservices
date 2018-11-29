@@ -3,6 +3,7 @@ package com.microservices.user.service;
 import java.util.List;
 
 import com.microservices.user.persistence.UserRepository;
+import com.microservices.user.persistence.model.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -43,7 +44,15 @@ public class UserService implements UserDetailsService {
         return userRepository.findAll();
     }
 
+    public List<com.microservices.user.persistence.model.User> findAllLibrarians() {
+        return userRepository.findByRole(Role.LIBRARIAN);
+    }
+
     public com.microservices.user.persistence.model.User findUser(String login) {
         return userRepository.findByLogin(login);
+    }
+
+    public void delete(Long id) {
+        userRepository.deleteById(id);
     }
 }

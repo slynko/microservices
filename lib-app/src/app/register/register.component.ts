@@ -39,16 +39,29 @@ export class RegisterComponent implements OnInit {
         }
 
         this.loading = true;
-        this.userService.register(this.registerForm.value)
+        if (localStorage.getItem("authorities") == 'ROLE_ADMIN') {
+          this.userService.registerLibrarian(this.registerForm.value)
             .pipe(first())
             .subscribe(
-                data => {
-                    this.alertService.success('Registration successful', true);
-                    this.router.navigate(['/login']);
-                },
-                error => {
-                    this.alertService.error(error);
-                    this.loading = false;
-                });
+              data => {
+                this.router.navigate(['/librarians']);
+              },
+              error => {
+                this.alertService.error(error);
+                this.loading = false;
+              });
+        } else {
+          this.userService.register(this.registerForm.value)
+            .pipe(first())
+            .subscribe(
+              data => {
+                this.alertService.success('Registration successful', true);
+                this.router.navigate(['/login']);
+              },
+              error => {
+                this.alertService.error(error);
+                this.loading = false;
+              });
+        }
     }
 }

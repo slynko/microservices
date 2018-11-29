@@ -3,3 +3,6 @@ insert into user (id, login, password, role, first_name, last_name, email, is_bl
 
 insert into user (id, login, password, role, first_name, last_name, email, is_blocked)
   values(2, 'reader', 'reader', 'READER', 'reader', 'reader', 'reader@reader.com', false);
+
+insert into user (id, login, password, role, first_name, last_name, email, is_blocked)
+  values(3, 'librarian', 'librarian', 'LIBRARIAN', 'librarian', 'librarian', 'librarian@librarian.com', false);

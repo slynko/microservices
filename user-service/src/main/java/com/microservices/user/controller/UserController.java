@@ -8,6 +8,7 @@ import com.microservices.user.persistence.model.User;
 import com.microservices.user.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,9 +25,19 @@ public class UserController {
     private final UserService userService;
     private final UserRepository repository;
 
+
+    @DeleteMapping("/user/{id}")
+    public void delete(@PathVariable Long id) {
+        userService.delete(id);
+    }
     @GetMapping("/user")
     public List<User> findAllUsers() {
         return userService.findAll();
+    }
+
+    @GetMapping("/user/librarian")
+    public List<User> findAllLibrarians() {
+        return userService.findAllLibrarians();
     }
 
     @GetMapping("/user/{userId}")
@@ -53,6 +64,21 @@ public class UserController {
                 .lastName(request.getLastName())
                 .password(request.getPassword())
                 .role(Role.READER)
+                .isBlocked(false)
+                .build();
+
+        return repository.save(user);
+    }
+
+    @PostMapping("/user/librarian")
+    public User saveLibrarian(@RequestBody CreateUserRequest request) {
+        User user = User.builder()
+                .login(request.getLogin())
+                .email(request.getEmail())
+                .firstName(request.getFirstName())
+                .lastName(request.getLastName())
+                .password(request.getPassword())
+                .role(Role.LIBRARIAN)
                 .isBlocked(false)
                 .build();
 
