@@ -1,7 +1,10 @@
 ﻿export class User {
     id: number;
-    username: string;
+    login: string;
     password: string;
     firstName: string;
     lastName: string;
+    email:string;
+    isBlocked: boolean;
+    role: string;
 }

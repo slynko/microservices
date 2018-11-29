@@ -22,6 +22,7 @@ import {HomeAdminComponent} from "./home-admin";
 import {DialogOverviewExampleDialog, HomeReaderComponent} from "./home-reader";
 import {MyBooksReaderComponent} from "./my-books-reader";
 import {NavigationComponent} from "./navigation/navigation.component";
+import {UsersComponent} from "./users-admin/users.component";
 
 @NgModule({
   imports: [
@@ -37,6 +38,7 @@ import {NavigationComponent} from "./navigation/navigation.component";
     routing
   ],
   declarations: [
+    UsersComponent,
     AppComponent,
     AlertComponent,
     LoginComponent,

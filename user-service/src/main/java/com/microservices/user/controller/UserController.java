@@ -34,10 +34,10 @@ public class UserController {
         return userService.findUser(userId);
     }
 
-    @PostMapping("/user/block/{id}")
-    public User blockUnblockUser(@PathVariable Long id, @RequestBody BlockUserRequest request) {
+    @PostMapping("/user/{id}")
+    public User blockUnblockUser(@PathVariable Long id) {
         return repository.findById(id).map(user -> {
-            user.setIsBlocked(request.isBlock());
+            user.setIsBlocked(!user.getIsBlocked());
             return user;
         })
         .map(repository::save)

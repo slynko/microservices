@@ -9,7 +9,7 @@ export class UserService {
     constructor(private http: HttpClient) { }
 
     getAll() {
-        return this.http.get<User[]>(`${environment.apiUrl}/users`);
+        return this.http.get<User[]>(`${environment.userServiceUrl}/user`);
     }
 
     getById(id: number) {
@@ -20,8 +20,8 @@ export class UserService {
         return this.http.post(`${environment.userServiceUrl}/user`, user);
     }
 
-    update(user: User) {
-        return this.http.put(`${environment.apiUrl}/users/` + user.id, user);
+    blockUnblock(id: number) {
+        return this.http.post<User>(`${environment.userServiceUrl}/user/` + id, null);
     }
 
     delete(id: number) {
