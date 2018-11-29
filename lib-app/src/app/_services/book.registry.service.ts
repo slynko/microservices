@@ -12,7 +12,7 @@ export class BookRegistryService {
   }
 
   getAll() {
-    return this.http.get<Book[]>(`${environment.bookRegistryServiceUrl}/book-record`);
+    return this.http.get<BookRecord[]>(`${environment.bookRegistryServiceUrl}/book-record`);
   }
 
   getByLogin() {
@@ -22,6 +22,10 @@ export class BookRegistryService {
 
   addBookRecord(login: string, bookId: number, bookRecordRequest: BookRecordRequest) {
     return this.http.post(`${environment.bookRegistryServiceUrl}/book-record/${login}/${bookId}`, bookRecordRequest);
+  }
+
+  approve(id: number) {
+    return this.http.post<BookRecord>(`${environment.bookRegistryServiceUrl}/book-record/approve/${id}`, null);
   }
 
   add(book: Book) {

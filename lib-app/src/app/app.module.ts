@@ -24,6 +24,7 @@ import {MyBooksReaderComponent} from "./my-books-reader";
 import {NavigationComponent} from "./navigation/navigation.component";
 import {UsersComponent} from "./users-admin/users.component";
 import {LibrariansComponent} from "./librarians-admin/librarians.component";
+import {BookRequestsComponent} from "./book-requests-librarian/book-requests.component";
 
 @NgModule({
   imports: [
@@ -39,6 +40,7 @@ import {LibrariansComponent} from "./librarians-admin/librarians.component";
     routing
   ],
   declarations: [
+    BookRequestsComponent,
     LibrariansComponent,
     UsersComponent,
     AppComponent,

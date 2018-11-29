@@ -7,6 +7,9 @@
     <button mat-button class="btn-login text-bold	" (click)="openAllUsers()">Users</button>
     <button mat-button class="btn-login text-bold	" (click)="openAllLibrarians()">Librarians</button>
   </div>
+  <div *ngIf="authorities == 'ROLE_LIBRARIAN'">
+    <button mat-button class="btn-login text-bold	" (click)="openAllBookRequests()">Book requests</button>
+  </div>
   <span class="fill-remaining-space"></span>
   <div fxLayout="row" fxShow="false" fxShow.gt-sm>
     <button mat-button class="text-bold">Hi, {{login}}!</button>

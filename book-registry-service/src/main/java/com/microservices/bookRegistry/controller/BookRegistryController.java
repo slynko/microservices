@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.time.Instant;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -23,6 +24,16 @@ public class BookRegistryController {
     @GetMapping("/book-record")
     public List<BookRecord> findAllBookRecords() {
         return repository.findAll();
+    }
+
+    @PostMapping("/book-record/approve/{id}")
+    public BookRecord approve(@PathVariable Long id) {
+        repository.findById(id).ifPresent(br -> {
+            br.setApproved(true);
+            repository.save(br);
+        });
+
+        return repository.findById(id).orElse(null);
     }
 
     @PostMapping("/book-record/{login}/{bookId}")

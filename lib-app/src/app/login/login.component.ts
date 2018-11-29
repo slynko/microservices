@@ -54,8 +54,8 @@ export class LoginComponent implements OnInit {
                         this.router.navigate(["/users"]);
                     } else if(localStorage.getItem("authorities") == 'ROLE_READER') {
                       this.router.navigate(["/home-reader"]);
-                    } else {
-                        this.router.navigate(["/"]);
+                    } else if(localStorage.getItem("authorities") == 'ROLE_LIBRARIAN') {
+                        this.router.navigate(["/book-requests"]);
                     }
                 },
                 error => {

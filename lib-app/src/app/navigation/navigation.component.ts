@@ -39,6 +39,10 @@ export class NavigationComponent implements OnInit {
     this.router.navigate(["/librarians"]);
   }
 
+  openAllBookRequests() {
+    this.router.navigate(["/book-requests"]);
+  }
+
   logout() {
     this.router.navigate(["/"]);
   }
