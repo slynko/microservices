@@ -1,7 +1,9 @@
 package com.microservices.user.controller;
 
 import com.microservices.user.controller.model.BlockUserRequest;
+import com.microservices.user.controller.model.CreateUserRequest;
 import com.microservices.user.persistence.UserRepository;
+import com.microservices.user.persistence.model.Role;
 import com.microservices.user.persistence.model.User;
 import com.microservices.user.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -22,7 +24,6 @@ public class UserController {
     private final UserService userService;
     private final UserRepository repository;
 
-    //    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/user")
     public List<User> findAllUsers() {
         return userService.findAll();
@@ -41,6 +42,21 @@ public class UserController {
         })
         .map(repository::save)
         .orElse(null);
+    }
+
+    @PostMapping("/user")
+    public User save(@RequestBody CreateUserRequest request) {
+        User user = User.builder()
+                .login(request.getLogin())
+                .email(request.getEmail())
+                .firstName(request.getFirstName())
+                .lastName(request.getLastName())
+                .password(request.getPassword())
+                .role(Role.READER)
+                .isBlocked(false)
+                .build();
+
+        return repository.save(user);
     }
 
 }

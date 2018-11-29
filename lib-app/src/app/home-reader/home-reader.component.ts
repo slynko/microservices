@@ -52,7 +52,7 @@ export class HomeReaderComponent implements OnInit {
       this.bookOrderType = result.bookOrderType;
       this.dueDate = result.dueDate;
 
-      if (this.bookOrderType == 'Home' || (this.bookOrderType !== undefined && this.dueDate !== undefined)) {
+      if (this.bookOrderType == 'Library' || (this.bookOrderType !== undefined && this.dueDate !== undefined)) {
         this.readBook(id);
         this.bookAdded = true;
 

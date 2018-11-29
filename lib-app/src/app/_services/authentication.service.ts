@@ -15,7 +15,10 @@ export class AuthenticationService {
     login(username: string, password: string) {
         return this.http.post<any>(`${environment.apiUrl}/auth`, { username: username, password: password },  { observe: 'response' })
             .pipe(map(user => {
+              console.log("here1");
+console.log(user.headers)
               const token = user.headers.get("Authorization").replace("Bearer ", "");
+
                 // login successful if there's a jwt token in the response
                 if (token) {
                   let jwtData = token.split('.')[1];

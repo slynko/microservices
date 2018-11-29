@@ -9,10 +9,10 @@
     </mat-select>
   </mat-form-field>
 
-  <p *ngIf="data.bookOrderType === 'Library'">
+  <p *ngIf="data.bookOrderType === 'Home'">
     When would you like to return it ?
   </p>
-  <mat-form-field *ngIf="data.bookOrderType === 'Library'">
+  <mat-form-field *ngIf="data.bookOrderType === 'Home'">
     <input matInput required [matDatepicker]="picker" placeholder="Due date"
            [value]="data.dueDate" [(ngModel)]="data.dueDate">
     <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
