@@ -27,16 +27,4 @@ export class BookRegistryService {
   approve(id: number) {
     return this.http.post<BookRecord>(`${environment.bookRegistryServiceUrl}/book-record/approve/${id}`, null);
   }
-
-  add(book: Book) {
-    return this.http.post(`${environment.bookServiceUrl}/book/add`, book);
-  }
-
-  // update(book: Book) {
-  //     return this.http.put(`${environment.bookServiceUrl}/book/` + book.id, book);
-  // }
-  //
-  // delete(id: number) {
-  //     return this.http.delete(`${environment.bookServiceUrl}/book/` + id);
-  // }
 }

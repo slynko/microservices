@@ -90,7 +90,6 @@ export class HomeReaderComponent implements OnInit {
     bookRecordRequest.dueDateTime = this.dueDate;
 
     this.bookRegistryService.addBookRecord(login, id, bookRecordRequest).pipe(first()).subscribe(books => {
-      console.log("test");
     });
 
   }

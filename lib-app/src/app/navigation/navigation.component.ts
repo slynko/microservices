@@ -30,7 +30,6 @@ export class NavigationComponent implements OnInit {
     this.router.navigate(["/home-reader"]);
   }
 
-
   openAllUsers() {
     this.router.navigate(["/users"]);
   }

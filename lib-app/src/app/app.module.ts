@@ -4,7 +4,6 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 
 // used to create fake backend
-import {fakeBackendProvider} from './_helpers';
 
 import {AppComponent} from './app.component';
 import {routing} from './app.routing';
@@ -18,7 +17,6 @@ import {RegisterComponent} from './register';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {DemoMaterialModule} from "../material-module";
 import {MatNativeDateModule} from "@angular/material";
-import {HomeAdminComponent} from "./home-admin";
 import {DialogOverviewExampleDialog, HomeReaderComponent} from "./home-reader";
 import {MyBooksReaderComponent} from "./my-books-reader";
 import {NavigationComponent} from "./navigation/navigation.component";
@@ -47,7 +45,6 @@ import {BookRequestsComponent} from "./book-requests-librarian/book-requests.com
     AlertComponent,
     LoginComponent,
     RegisterComponent,
-    HomeAdminComponent,
     HomeReaderComponent,
     MyBooksReaderComponent,
     DialogOverviewExampleDialog,
@@ -64,7 +61,6 @@ import {BookRequestsComponent} from "./book-requests-librarian/book-requests.com
     {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
 
     // provider used to create fake backend
-    fakeBackendProvider
   ],
   entryComponents: [DialogOverviewExampleDialog],
   bootstrap: [AppComponent]
