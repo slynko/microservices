@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/netflix-eureka-naming-server/netflix-eureka-naming-server.iml" filepath="$PROJECT_DIR$/netflix-eureka-naming-server/netflix-eureka-naming-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflix-zuul-api-gateway-server.iml" filepath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflix-zuul-api-gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-app/test.iml" filepath="$PROJECT_DIR$/lib-app/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
     </modules>
   </component>

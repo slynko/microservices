@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/book-registry-service" />
+    <file type="web" url="file://$PROJECT_DIR$/book-service" />
+    <file type="web" url="file://$PROJECT_DIR$/lib-app" />
+    <file type="web" url="file://$PROJECT_DIR$/netflix-eureka-naming-server" />
+    <file type="web" url="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server" />
+    <file type="web" url="file://$PROJECT_DIR$/user-service" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -17,6 +25,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-security/resource-server/pom.xml" />
         <option value="$PROJECT_DIR$/../currency-conversion-service/pom.xml" />
         <option value="$PROJECT_DIR$/../currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lib-app/pom.xml" />
       </list>
     </option>
   </component>

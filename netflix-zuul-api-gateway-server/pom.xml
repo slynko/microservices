@@ -6,7 +6,7 @@
 	<groupId>com.microservices</groupId>
 	<artifactId>netflix-zuul-api-gateway-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>netflix-zuul-api-gateway-server</name>
 	<description>Demo project for Spring Boot</description>
@@ -60,6 +60,12 @@
 			<artifactId>jjwt</artifactId>
 			<version>0.9.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
@@ -75,7 +81,22 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>${artifactId}</finalName>
 		<plugins>
+			<plugin>
+				<groupId>com.microsoft.azure</groupId>
+				<artifactId>azure-webapp-maven-plugin</artifactId>
+				<version>1.1.0</version>
+				<configuration>
+					<linuxRuntime>tomcat 8.5-jre8</linuxRuntime>
+					<authentication>
+						<serverId>azure-auth</serverId>
+					</authentication>
+					<appName>libapp-zuul</appName>
+					<resourceGroup>alex</resourceGroup>
+				</configuration>
+
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

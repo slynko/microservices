@@ -6,7 +6,7 @@
 	<groupId>com.microservices</groupId>
 	<artifactId>book-registry-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>book-registry-service</name>
 
@@ -31,7 +31,11 @@
 			<version>1.18.2</version>
 			<scope>provided</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -88,7 +92,22 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>${artifactId}</finalName>
 		<plugins>
+			<plugin>
+				<groupId>com.microsoft.azure</groupId>
+				<artifactId>azure-webapp-maven-plugin</artifactId>
+				<version>1.1.0</version>
+				<configuration>
+					<linuxRuntime>tomcat 8.5-jre8</linuxRuntime>
+					<authentication>
+						<serverId>azure-auth</serverId>
+					</authentication>
+					<appName>libapp-book-registry</appName>
+					<resourceGroup>alex</resourceGroup>
+				</configuration>
+
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
