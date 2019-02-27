@@ -29,7 +29,7 @@ public class UserService implements UserDetailsService {
 
         com.microservices.user.persistence.model.User user = userRepository.findByLogin(username);
 
-        if (user != null) {
+        if (user != null && !user.getIsBlocked()) {
             List<GrantedAuthority> grantedAuthorities = AuthorityUtils
                     .commaSeparatedStringToAuthorityList("ROLE_" + user.getRole().name());
 
